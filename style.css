@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist" , sans-serif;
+}
+
+/* variables */
+:root{
+    --bs-dark-color:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+    --bs-text-color:rgb(146, 146, 146);
+}
+h1,h2,h3,h4,h5{
+    color: var(--bs-dark-color);
+    font-family: 'lexend Deca',sans-serif;
+}
+h1{
+    font-size: 3.8vmax;
+}
+h2{
+    line-height: 3vmax;
+    font-weight: 600;
+    font-size: 3.4vmax;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    color: var(--bs-dark-color);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button , a{
+  font-size: 1.15vmax;
+  letter-spacing: 0.03vmax;
+  word-spacing: .1vmax;
+}
+/* nav section */
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+.nav-link:hover{
+color: var(--bs-primary-color);
+}
+/* hero section is parent*/
+.bg-color{
+   background-color:var(--bs-dark-color);
+}
+.text-light-gray{
+    color: var(--bs-text-color);
+}
+.bg-main{
+    /*(just for indicate that it is parent and for doing content in center) parent */
+    position: relative;
+    height: 80vh;
+}
+.hero-section .container{
+    /* child */
+    display: grid;
+    place-items: center;
+    /* means the same height as the parent has and initial will return us by default defined css property */
+    height: inherit; 
+}
+ /*video in child  */
+.hero-video--section{
+   width: 30vmax;
+   border-radius: 2vmax;
+}
+/* shape effect */
+.custom-shape-divider-bottom-1728745703 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1728745703 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 139px;
+}
+.custom-shape-divider-bottom-1728745703 .shape-fill {
+    fill: #FFFFFF;
+}
+/* service section */
+
+.common-head{
+font-size: 2.8vmax;
+letter-spacing: 0.01vmax;
+font-weight: 500;
+}
+.common-title{
+    margin-bottom: 4.2vmax;
+}
+/* cards */
+.icon i{
+    font-size: 2.5vmax;
+}
+.card-box:hover{
+    box-shadow: 0 8px 24px rgba(149,157,165,0.2);
+}
+/* second hero section */
+.background-img{
+    background-image: linear-gradient(rgba(22,22,22,0.3), rgba(22,22,22,0.9)),url(images/building.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    /* for fix image otherwise image will be scroll */
+    background-attachment: fixed;
+    /* for cover text in a container in case of long text */
+    overflow: hidden;
+}
+@media screen and (max-width:700px){
+    /* main front paragraph */
+    .para-width{
+        font-size: 1.5vmax;
+       padding-bottom: 5vmax;
+    }
+    /* background column text */
+  .background-img .bg-text-col p{
+    font-size: 1.8vmax;
+    padding-bottom: 1vmax;
+  }  
+  .background-img .bg-btn-col{
+margin-bottom: 2vmax;
+padding: 0;
+  }
+}
+.hero-section .img-section img{
+    width: 70%;
+}
+/* cards */
+.carousel .card {
+    background-color:#1c1c1c ;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+.carousel .card p{
+    color: var(--bs-main-color);
+}
+.carousel .card:hover{
+    background-color:var(--bs-main-color) ;
+    color: var(--bs-dark-color);
+}
+.carousel .card p:hover{
+    color: var(--bs-dark-color);
+}
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+.carousel-indicators{
+    bottom: -1vmax;
+}
+/* The data-bs-target attribute accepts a CSS selector to apply the collapse to.  */
+.carousel-indicators [data-bs-target]{
+   width: .7vmax; 
+   height: .7vmax;
+   background-color: var(--bs-primary-color);
+}
+/* contact section */
+.contact-section{
+    position: relative;
+}
+.custom-shape-divider-top-1728926679 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1728926679 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1728926679 .shape-fill {
+    fill: #FFFFFF;
+}
+.common-section .common-title{
+    padding-top: 6vmax;
+}
+.form-section{
+    width: 50%;
+}
+/* footer */
+.bg-gray{
+   background-color: rgb(43, 42, 42); 
+}
+.head{
+    font-weight: 900;
+    font-size: 1.5vmax;
+}
+.contact-details .col1{
+   text-align: center;
+}
+.copy-right p , .copy-right i{
+font-size: 1.2vmax;
+}
+.copy-right a{
+color: var(--bs-supporting-color);
+font-weight: bold;
+}
+.media-icons i{
+    color: var(--bs-supporting-color);
+    }
+/* responsiveness */
+.navbar-toggler-icon{
+    background-color: var(--bs-main-color); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

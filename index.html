@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- bootstap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+        <div class="container">
+          <a class="navbar-brand  nav-link" href="#">Rimal's Creative</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Hero section start-->
+    <section class="hero-section bg-main bg-color">
+       <div class="container">
+        <!-- row for split two columns for responsiveness -->
+        <div class="row mb-5">
+          <!-- col-12 means it'll take 100% width of its container or column width to 12 columns and it'll be resposible for every device -->
+          <div class="col-12 col-md-12 col-lg-6 order-lg-0 order-1 d-flex flex-column align-items-start justify-content-center">
+            <h1 class="text-capitalize fw-bolder text-white">We Collect High quality leads</h1>
+            <p class="mt-2 mb-3 para-width text-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Qui consequatur molestias nulla porro, provident praesentium ipsum earum obcaecati cupiditate 
+              enim eligendi adipisci quia eius possimus corrupti explicabo? Recusandae, cupiditate quibusdam.</p>
+              <div class="text-center w-100 text-md-start">
+                <!-- we have pasted tootips code after class -->
+                <button class="text-capitalize btn btn-primary px-5 py-2" data-bs-toggle="tooltip" data-bs-title="Contact Rimal">Contact us</button>
+              </div>
+          </div>
+          <!-- coloum2 for image -->
+          <div class="col-12 col-md-12 col-lg-6  order-lg-1 order-0">
+            <div class="text-center  text-lg-end">
+              <video src="./images/hero.mp4" loop muted autoplay class="hero-video--section my-5"></video>
+            </div>
+          </div>
+        </div>
+       </div>
+   
+       <!-- shape effect -->
+       <div class="custom-shape-divider-bottom-1728745703">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+       </div>
+    </section>
+    <!-- Hero section end-->
+    <!-- Service Section start -->
+    <section class="common-section mt-5">
+      <div class="container fw-bold text-center common-title">
+        <h2 class="common-head text-capitalize">what we will do for<br>your business</h2>
+        <hr class="mx-auto w-25">
+      </div>
+
+      <!--animated cards -->
+      <div class="container mt-5">
+        <div class="row g-5">
+          <div class="col col-12 col-lg-4 col-md-12">
+              <div class="card-box text-center rounded-2 p-5">
+              <img src="/images/link.gif" alt="link gif" class="img-fluid" width="200vmax">
+              <h5 class="text-capitalize fw-normal my-3">linking buliding</h5>
+              <p class="mb-5">Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!</p>
+              <div class="icon">
+                <a href="#service"><i class="fa-solid fa-circle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col col-12 col-lg-4 col-md-12">
+            <div class="card-box  shadow text-center rounded-2 p-5">
+            <img src="/images/speaker.gif" alt="speaker gif" class="img-fluid" width="200vmax">
+            <h5 class="text-capitalize fw-normal my-3">Content marketing</h5>
+            <p class="mb-5">Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!</p>
+            <div class="icon">
+              <a href="#service"><i class="fa-solid fa-circle-right"></i></a>
+            </div>
+          </div>
+          </div>
+          <!--  -->
+          <div class="col col-12 col-lg-4 col-md-12">
+            <div class="card-box text-center rounded-2 p-5">
+            <img src="/images/seo.gif" alt="seo gif" class="img-fluid" width="200vmax">
+            <h5 class="text-capitalize fw-normal my-3">On Page SEO</h5>
+            <p class="mb-5">Hunky dory barney fanny around up the duff no biggie loo cup of tea jolly good ruddy say arse!</p>
+            <div class="icon">
+              <a href="#service"><i class="fa-solid fa-circle-right"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section start end -->
+       <!--second hero section start -->
+    <section class="hero-section bg-main bg-color mt-5 background-img">
+      <div class="container">
+       <!-- row -->
+       <div class="row mb-5">
+        <!-- coloum1 for image -->
+        <div class="col-12 col-md-12 col-lg-6 img-section">
+          <div>
+            <img src="images/phone.gif" alt="phone gif" class="img-fluid">
+          </div>
+        </div>
+         <!-- col2 -->
+         <div class="col-12 col-md-12 col-lg-6 d-flex flex-column align-items-start justify-content-center bg-text-col">
+           <h1 class="text-capitalize text-white common-head"> Steps to Build a Successful Digital Product</h1>
+           <p class="mt-2 mb-lg-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Qui consequatur molestias nulla porro, provident praesentium ipsum earum obcaecati cupiditate 
+             enim eligendi adipisci quia eius possimus corrupti explicabo? Recusandae, cupiditate quibusdam.provident praesentium ipsum earum obcaecati cupiditate 
+             corrupti explicabo? Recusandae, cupiditate quibusdam.</p>
+             <div class="text-center w-100 text-md-start bg-btn-col">
+               <button class="text-capitalize btn btn-primary px-5 py-2">Contact us</button>
+             </div>
+         </div>
+         
+       </div>
+      </div>
+    </div>
+   </section>
+   <!--second hero section end  -->
+
+   <!-- col section start -->
+   <section class="common-section business-section mt-5">
+    <div class="container fw-bold text-center common-title">
+      <h2 class="common-head text-capitalize">Generating New Customers Via<br>Online Mode</h2>
+      <hr class="mx-auto w-25">
+    </div>
+    <!--  4 columns -->
+    <div class="container">
+      <div class="row g-5">
+        <!-- col1 -->
+        <div class="col-12 col-lg-6 col-md-12 ">
+          <div class="px-3 py-5 shadow d-flex">
+            <img src="images/phone.gif" alt="phone gif" class="img-fluid mx-3 d-none d-md-block" width="170vmax">
+            <div>
+            <P class="mb-3 fw-bolder">Social Media Advertising</P>
+            <P>Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and LinkedIn. Target specific demographics to connect with potential customers interested in your services.</P>
+            </div>
+          </div>
+        </div>
+        <!-- col2 -->
+        <div class="col-12 col-lg-6 col-md-12 ">
+          <div class="px-3 py-5 shadow d-flex">
+            <img src="images/link.gif" alt="phone gif" class="img-fluid mx-3 d-none d-md-block" width="170vmax">
+            <div>
+            <P class="mb-3 fw-bolder">Influencer Marketing</P>
+            <P>Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and LinkedIn. Target specific demographics to connect with potential customers interested in your services.</P>
+            </div>
+          </div>
+        </div>
+        <!-- col3 -->
+        <div class="col-12 col-lg-6 col-md-12 ">
+          <div class="px-3 py-5 shadow d-flex">
+            <img src="images/seo.gif" alt="phone gif" class="img-fluid mx-3 d-none d-md-block" width="170vmax">
+            <div>
+            <P class="mb-3 fw-bolder">Content Marketing</P>
+            <P>Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and LinkedIn. Target specific demographics to connect with potential customers interested in your services.</P>
+            </div>
+          </div>
+        </div>
+        <!-- col4 -->
+        <div class="col-12 col-lg-6 col-md-12 ">
+          <div class="px-3 py-5 shadow d-flex">
+            <img src="images/phone.gif" alt="phone gif" class="img-fluid mx-3 d-none d-md-block" width="170vmax">
+            <div>
+            <P class="mb-3 fw-bolder">Referral Programs</P>
+            <P>Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and LinkedIn. Target specific demographics to connect with potential customers interested in your services.</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- col section end -->
+
+<!-- testimonials section start-->
+ <!-- heading-->
+<section class="common-section bg-color mt-5 pt-5 pb-5">
+  <div class="container fw-bold text-center common-title">
+    <h2 class="common-head text-capitalize text-white">What Client Say<br>About Us</h2>
+    <hr class="mx-auto w-25">
+  </div>
+<!-- cards' carousel-->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- line1 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <!-- col1 -->
+          <div class="col-12 col-lg-4">
+            <!-- for center -->
+            <div class="d-flex justify-content-center align-items-center">
+              <!-- card1 -->
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="images/customer33.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col2 -->
+        <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+             <!-- card2 -->
+             <div class="card mb-5" style="width: 18rem;">
+               <img src="images/customer22.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+              </div>
+            </div>
+         </div>
+       </div> 
+          <!-- col3 -->
+         <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+            <!-- card3 -->
+            <div class="card mb-5" style="width: 18rem;">
+             <img src="images/customer11.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+             </div>
+           </div>
+         </div>
+       </div>
+        <!-- col3 end -->
+      </div>
+    </div>
+  </div>
+  <!-- line2 -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <!-- col1 -->
+        <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+           <!-- card1 -->
+          <div class="card mb-5" style="width: 18rem;">
+            <img src="images/customer22.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+            </div>
+          </div> 
+        </div>
+        </div>
+         <!-- col2 -->
+         <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+          <!-- card2 -->
+          <div class="card mb-5" style="width: 18rem;">
+           <img src="images/customer33.jpeg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+           </div>
+         </div>
+       </div> 
+       </div>
+       <!-- col3 -->
+       <div class="col-12 col-lg-4">
+        <!-- for center -->
+        <div class="d-flex justify-content-center align-items-center">
+        <!-- card3 -->
+        <div class="card mb-5" style="width: 18rem;">
+         <img src="images/customer11.jpeg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Card title</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+         </div>
+       </div>
+     </div>
+     </div>
+      <!-- col3 end -->
+      </div>
+    </div>
+  </div>
+  <!-- line3 -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <!-- col1 -->
+        <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+           <!-- card1 -->
+          <div class="card mb-5" style="width: 18rem;">
+            <img src="images/customer11.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+            </div>
+          </div>
+        </div>
+        </div>
+         <!-- col2 -->
+         <div class="col-12 col-lg-4">
+          <!-- for center -->
+          <div class="d-flex justify-content-center align-items-center">
+          <!-- card2 -->
+          <div class="card mb-5" style="width: 18rem;">
+           <img src="images/customer22.jpeg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+           </div>
+         </div>
+       </div> 
+       </div>
+       <!-- col3 -->
+       <div class="col-12 col-lg-4">
+        <!-- for center -->
+        <div class="d-flex justify-content-center align-items-center">
+        <!-- card3 -->
+        <div class="card mb-5" style="width: 18rem;">
+         <img src="images/customer33.jpeg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Card title</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <p class="pt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+         </div>
+       </div>
+     </div>
+     </div>
+      <!-- col3 end -->
+      </div>
+    </div>
+  </div>
+  <!-- line3 end -->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> 
+</section>
+<!-- testimonials section end-->
+
+<!-- expert pannel section -->
+<section class="common-section  mt-5">
+  <div class="container fw-bold text-center common-title">
+    <h2 class="common-head text-capitalize ">Tips and Tricks From<br>Our Exparts</h2>
+    <hr class="mx-auto w-25">
+  </div>
+  <div class="container">
+    <div class="row g-3">
+      <!-- col1 -->
+      <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+        <!-- card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="images/web-dev.png" class="card-img-top" alt="img">
+          <div class="card-body">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="small text-gray">
+                <i class="fa-solid fa-book-open-reader"></i>
+                : 5000
+              </p>
+              <p class="small text-gray">March 3, 2024</p>
+            </div>
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+         <!-- card-end -->
+      </div>
+       <!-- col4 -->
+       <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+        <!-- card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="images/marketing.png" class="card-img-top" alt="image">
+          <div class="card-body">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="small text-gray">
+                <i class="fa-solid fa-book-open-reader"></i>
+                : 5000
+              </p>
+              <p class="small text-gray">March 3, 2024</p>
+            </div>
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+         <!-- card-end -->
+      </div>
+      <!-- col2 -->
+      <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+        <!-- card -->
+        <div class="card  mb-3" style="width: 18rem;">
+          <img src="images/freelancing.png" class="card-img-top" alt="image">
+          <div class="card-body">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="small text-gray">
+                <i class="fa-solid fa-book-open-reader"></i>
+                : 5000
+              </p>
+              <p class="small text-gray">March 3, 2024</p>
+            </div>
+            <h5 class="card-title">Freelancing</h5>
+            <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+         <!-- card-end -->
+      </div>
+      <!-- col3 -->
+      <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+        <!-- card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="images/Adobe Photoshop.png" class="card-img-top" alt="img">
+          <div class="card-body">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="small text-gray">
+                <i class="fa-solid fa-book-open-reader"></i>
+                : 5000
+              </p>
+              <p class="small text-gray">March 3, 2024</p>
+            </div>
+            <h5 class="card-title">Graphic Designer</h5>
+            <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+         <!-- card-end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- expert pannel section end -->
+
+<!-- contact section start -->
+<section class="common-section contact-section bg-color mt-5 pt-5 pb-5 text-white ">
+  <div class="container fw-bold text-center common-title">
+    <h2 class="common-head text-capitalize text-white">Contact Us</h2>
+    <hr class="mx-auto w-25">
+  </div>
+  <!-- form start-->
+    <div class="container">
+      <form class="form-section mx-auto" action="https://formsubmit.co/cing7664@gmail.com" method="POST">
+         <div class="mb-3">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">First name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" autocomplete="off" placeholder="First name" required min="3">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" autocomplete="off" placeholder="Last Name" required min="3">
+              </div> 
+            </div>
+          </div>
+         </div>
+       
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" autocomplete="off" placeholder="name@example.com" required>
+          <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+        </div>
+       
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" autocomplete="off" required min="3"></textarea>
+        </div>
+        <a href="#"><button type="submit" class="btn btn-primary mt-3">Submit</button></a>     
+      </form>
+    </div>
+
+  <!-- form end -->
+   <!-- effect -->
+  <div class="custom-shape-divider-top-1728926679">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</section>
+<!-- contact section end -->
+
+<!-- footer section start --> 
+<footer class="fooer-section bg-color text-white bg-gray"> 
+<div class="container d-flex justify-content-center align-items-center bg-color">
+  <div class="row">
+    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+      <div class="=d-flex d-column">
+        <img src="images/map.gif" alt="image" class="img-fluid" width="150vmax">
+        <p class="text-white">(+00) 1234 5678</p>
+      </div>
+    </div>
+    <!-- col2 -->
+    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+      <div class="=d-flex d-column">
+        <img src="images/music.png" alt="image" class="img-fluid" width="150vmax">
+        <p class="text-white">(+00) 1234 5678</p> 
+      </div>
+      <!-- col3 -->
+    </div>
+    <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+      <div class="=d-flex d-column">
+        <img src="images/link.gif" alt="image" class="img-fluid" width="150vmax">
+        <p class="text-white">(+00) 1234 5678</p>
+      </div>
+    </div>
+  </div>
+ </div> 
+ <!-- footer section start  -->
+<footer class="bg-gray">
+ <div class="container contact-details mt-3">
+  <div class="row mb-3">
+     <div class="col-lg-2 col-md-3">
+      <div class="col col1">
+      <p class="text-white  head py-3">ABOUT US</p>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+     </div>
+     </div>
+     <div class="col-lg-2 col-md-3">
+      <div class="col col1">
+      <p class="text-white  head py-3">ABOUT US</p>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+     </div>
+     </div>
+     <div class="col-lg-2 col-md-3">
+      <div class="col col1">
+      <p class="text-white  head py-3">ABOUT US</p>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+      <div class="row"><a href="#"><p class="text-white py-2 px-2 ">Our Story</p></a></div>
+     </div>
+     </div>
+     <div class="col-lg-6 col-md-3">
+      <div class="row py-3">
+        <div class="input-group">
+          <input type="text" class="form-control px-2" placeholder="For More Updates" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text bg-primary" id="basic-addon2">Subscribe</span>
+        </div> 
+      </div>
+     </div>
+  </div>
+</div>
+<!-- copy right section -->
+<hr class=" w-70 mx-auto">
+<section class="copy-right  py-3">
+  <div class="d-flex justify-content-around align-items-center">
+  <div>
+   <p class="text-white ps-3">Copyright ©2024 All rights reserved. | This template is made with by<a href="#"> @RimalTech.com</a></p>
+  </div>
+   <div class="media-icons d-flex">
+    <div><a href="https://www.instagram.com/rimalfarooq._.3/?__pwa=1"><i class="fa-brands fa-instagram mx-3"></i></a></div>
+    <div><a href="#"><i class="fa-brands fa-facebook mx-3"></i></a></div>
+    <div><a href="#"> <i class="fa-brands fa-whatsapp mx-3"></i></a></div>
+  </div>
+  </div>
+</section>
+</footer>
+<!-- footer section end -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>   
+</body>
+</html>
